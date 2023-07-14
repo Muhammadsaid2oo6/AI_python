@@ -11,4 +11,4 @@ while i < len(list1):
     sum_list.append(list1[i]+list2[i])
     i += 1
 
-print(sum_list)
+print(sum_list)  
