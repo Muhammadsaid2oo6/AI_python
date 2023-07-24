@@ -10,5 +10,5 @@ for harf in s:
     
 
 print("unli harflar: ", set(unli))
-print("undosh harflar: ", set(undosh))
+print("undosh harflar: ", set(undosh))  
  

@@ -32,9 +32,10 @@
 
 o = int(input(">>> "))
 
+
 def calc(o):
     for s in range(10):
         print(f"{o}*{s}={o*s}")
+
+
 calc(10)
-
-

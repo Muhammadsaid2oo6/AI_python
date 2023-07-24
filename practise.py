@@ -8,7 +8,10 @@ def darv(a, b, c, d):
     m_turi = {
         "temir": 25000,
         "oltin": 30000,
-        "plastmassa": 10000
+        "plastmassa": 10000,
+        "list": 20000,
+        "tunika": 11000,
+        "zamok": 12000
     }
     if d in m_turi:
         print(int(a*b*c*m_turi[d]))
