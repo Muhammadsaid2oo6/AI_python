@@ -20,7 +20,7 @@ def laptop(a,b,c,d,e,f):
     else:
         bP=400
     
-    if d == 'Ryzon' and e=
+
         
     if d == 'Ryzon' and e == 5 and f == "black" :
        if a in lap_library:
