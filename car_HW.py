@@ -19,7 +19,7 @@ class Cars:
             2: ['chevrolet camaro', 'BMW 2 Series', 'BMW M4', 'chevrolet coverette'],
             5: ['Nexia 1', 'Nexia 2', 'Nexia 3', 'Lacetti']
         }
-
+        
         cars_by_door = door1.get(self.door, [])
         cars_by_salon = salon1.get(self.salon, [])
         cars_by_passenger_place = passenger_place1.get(self.passenger_place, [])
@@ -36,7 +36,7 @@ wheels = int(input("Number of wheels: "))
 car_search = Cars(door, salon, passenger_place, wheels)
 result = car_search.data()
 
-if result:
+if result:  
     print("Available cars:")
     for car in result:
         print("-", car)
