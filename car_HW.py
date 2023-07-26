@@ -28,7 +28,6 @@ class Cars:
 
         return list(available_cars)
 
-# Get user input for car criteria
 door = int(input("Number of doors: "))
 salon = input("Salon type (sport/daily/luxry): ")
 passenger_place = int(input("Number of passenger places: "))
@@ -42,4 +41,4 @@ if result:
     for car in result:
         print("-", car)
 else:
-    print("No cars available with the specified criteria.")
+    print("No cars available")
