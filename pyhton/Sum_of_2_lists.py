@@ -1,4 +1,3 @@
-
 import random
 
 list1 = [random.randint(1, 100) for x in range(100)]
